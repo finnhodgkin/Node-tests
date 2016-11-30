@@ -16,7 +16,7 @@ function httpGet (i){
 
         res[i] = data.toString();
         count++;
-
+        
         if(count === 3)
           printAll()
     }))
